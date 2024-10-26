@@ -1,4 +1,4 @@
-# KIT_Aurore (rôdeuse) (doit être assigné à un personnage humain femme)
+# KIT_Aurore (rôdeuse) (doit être assigné à un personnage feminin de grande taille)
 
 Vous trouvez que le Morituri est un kit cheaté ? C'est parce que vous n'avez jamais joué avec une Aurore !
 
