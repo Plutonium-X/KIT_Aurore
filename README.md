@@ -1,5 +1,7 @@
 # KIT_Aurore (rôdeuse) (doit être assigné à un personnage humain femme)
 
+Vous trouvez que le Morituri est un kit cheaté ? C'est parce que vous n'avez jamais joué avec une Aurore !
+
 -Avantages :
 -  +1 à la dextérité et +2 au charisme à la création.
 -  Grande maîtrise en Arc long et Arc court.
