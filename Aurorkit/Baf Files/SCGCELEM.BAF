@@ -1,0 +1,95 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("HasIcePrince","GLOBAL",0)
+    CreateVisualEffectObject("SPCMWOUI",Myself)
+    DestroySelf()
+END
+
+IF
+  !Global("IcePrinceSummoned","LOCALS",1)
+  GlobalTimerNotExpired("HasIcePrince","GLOBAL")
+  Allegiance(Myself,NEUTRAL)
+  !Allegiance(LastSummonerOf(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    DisplayString(LastSummonerOf(Myself),~You cannot summon another creature of that type at this time.~)
+    DestroySelf()
+END
+
+IF
+  !GlobalTimerNotExpired("HasIcePrince","GLOBAL")
+  Allegiance(Myself,NEUTRAL)
+  !Allegiance(LastSummonerOf(Myself),ALLY)
+THEN
+  RESPONSE #100
+    SetGlobal("IcePrinceSummoned","LOCALS",1)
+    SetGlobalTimer("HasIcePrince","GLOBAL",200)
+    Ally()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,~The Prince of Ice shal NOT tolerate betrayal!~)
+    SetGlobalTimer("HasIcePrince","GLOBAL",0)
+    Enemy()
+END
+
+IF
+  Detect([PC])
+  Global("Display","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Display","LOCALS",1)
+    DisplayStringHead(Myself,~Who calls Glacius, Prince of Ice!~)
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  !GlobalTimerNotExpired("HelpAlly","LOCALS")
+  See([PC])
+  HPPercentLT(MostDamagedOf(Myself),50)
+  !HPPercentLT(Myself,50)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("HelpAlly","LOCALS",15)
+    DisplayStringHead(Myself,~The Prince of Ice shall not let you fall so easily!~)
+    Help()
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HPPercentLT(Myself,50)
+  Global("AidMe","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AidMe","LOCALS",1)
+    DisplayStringHead(Myself,~Aid me, my minions!~)
+    ForceSpellRES("GICEEFF2",Myself)  // GICEEFF2
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CastIcePrinceWrath","LOCALS",0)
+  !GlobalTimerNotExpired("IcePrinceWrath","LOCALS")
+THEN
+  RESPONSE #100
+    ForceSpellRES("GICEEFF1",NearestEnemyOf(Myself))  // GICEEFF1
+    DisplayStringHead(Myself,~Feel my Wrath!~)
+    IncrementGlobal("CastIcePrinceWrath","LOCALS",10)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CastIcePrinceWrath","LOCALS",0)
+    SetGlobalTimer("IcePrinceWrath","LOCALS",15)
+    AttackReevaluate(NearestEnemyOf(Myself),120)
+END
+

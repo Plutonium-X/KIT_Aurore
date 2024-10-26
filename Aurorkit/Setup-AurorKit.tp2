@@ -1,0 +1,171 @@
+BACKUP ~Aurorkit/Backup~
+AUTHOR ~aeviannce24@yahoo.com~
+ALWAYS
+	ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+		INCLUDE ~Aurorkit/fl#add_kit_ee.tpa~
+		ACTION_DEFINE_ARRAY ch_reload BEGIN
+		~Setup.tra~
+		END
+		ACTION_DEFINE_ARRAY ch_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Language~
+			noconvert_array = ch_noconvert
+			reload_array = ch_reload
+		END
+	END
+END
+
+
+LANGUAGE ~English~
+         ~english~
+         ~Aurorkit/Language/English/Setup.tra~
+         
+LANGUAGE ~French (translated by Deratiseur)~
+         ~french~
+         ~Aurorkit/Language/French/Setup.tra~
+
+
+BEGIN @2
+
+// internal name of the kit
+ADD_KIT ~Auror~
+
+ // appended to CLASWEAP.2da
+ ~Auror		1           1           0           0           1           0           0           0~
+
+ // appended column-wise to WEAPPROF.2da
+ ~Auror		1 1 5 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 0 5 5 0 0 0 0 0 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+    
+ // appended to ABCLASRQ.2da
+ ~Auror				12      18	9	14	14	16~
+
+ // appended to ABCLSMOD.2da
+ ~Auror				-4	1	-3	0	0	2~
+
+ // appended to ABDCDSRQ.2da
+ ~Auror                		0       0       0       0       0       0~
+
+ // appended to ABDCSCRQ.2da
+ ~Auror                 	0       0       0       0       0	0~
+
+ // appended to ALIGNMNT.2da
+ ~Auror                  	0       0       0       1       0	0       1       0       0~
+
+ // appended to DUALCLAS.2da
+ ~Auror                  	0       0       0       0       0       0~
+
+ // path to your CLAB-style 2da file 
+ ~Aurorkit/CLABAURO.2da~
+
+ // PC races and classes allowed to use this kit, from KITTABLE.2da
+ ~K_R_E K_R_HE~
+
+ // usability flags, added to the end of the KITLIST.2da entry
+ ~0x10000000   12~
+
+ // HLA table to use; see LUABBR.2da
+ ~Ra0~
+
+ // list of starting equipment for PCs starting in ToB. Appended column-wise to 25STWEAP.2da
+ ~* * HELM07 BAG24 RING30 RING31 CLCK02 BOOT01 AMUL20 BRAC04 BELT08 AROW02,40 AROW11,40 AROW10,40 POTN52,5 POTN4,2 POTN14,5 HAMM09 SW2H15 *~
+
+ // Lower, mixed, and help kit names and descriptions, added to KITLIST.2da
+ SAY @1
+ SAY @2
+ SAY @3
+ 
+ ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	LAF fl#add_kit_ee STR_VAR kit_name = auror  END
+END
+
+COPY ~Aurorkit/Effects\AUSPCLCD.EFF~ ~override~
+COPY ~Aurorkit/Effects\EFF_FBWT.EFF~ ~override~
+COPY ~Aurorkit/Effects\EFF_FRZ1.EFF~ ~override~
+COPY ~Aurorkit/Effects\EFF_GICE.EFF~ ~override~
+COPY ~Aurorkit/Effects\EFF_IC01.EFF~ ~override~
+COPY ~Aurorkit/Effects\EFF_IC02.EFF~ ~override~
+
+COPY ~Aurorkit/Items\EFF_AUTH.ITM~ ~override~
+COPY ~Aurorkit/Items\GICEWEP1.ITM~ ~override~
+COPY ~Aurorkit/Items\ICEWEP01.ITM~ ~override~
+COPY ~Aurorkit/Items\IFBWOLF1.ITM~ ~override~
+COPY ~Aurorkit/Items\IFBWOLF2.ITM~ ~override~
+
+
+COPY ~Aurorkit/Spells\AUSPCL01.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL02.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL03.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL05.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL06.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL07.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL13.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL14.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\AUSPCL15.SPL~ ~override~
+
+COPY ~Aurorkit/Spells\GICEAURA.SPL~ ~override~
+SAY NAME1 @4
+
+COPY ~Aurorkit/Spells\GICEEFF1.SPL~ ~override~
+SAY NAME1 @5
+
+COPY ~Aurorkit/Spells\GICEEFF2.SPL~ ~override~
+SAY NAME1 @6
+
+COPY ~Aurorkit/Spells\SPLCBRTH.SPL~ ~override~
+SAY NAME1 @7
+SAY UNIDENTIFIED_DESC @8
+
+COPY ~Aurorkit/Spells\SPLFBWIN.SPL~ ~override~
+SAY NAME1 @9
+SAY UNIDENTIFIED_DESC @10
+
+COPY ~Aurorkit/Spells\SPLFRZAR.SPL~ ~override~
+SAY NAME1 @11
+SAY UNIDENTIFIED_DESC @12
+
+COPY ~Aurorkit/Spells\SPLHFRST.SPL~ ~override~
+SAY NAME1 @13
+SAY UNIDENTIFIED_DESC @14
+
+COPY ~Aurorkit/Spells\SPLICSUM.SPL~ ~override~
+SAY NAME1 @15
+SAY UNIDENTIFIED_DESC @16
+
+COPY ~Aurorkit/Spells\SPLTOUCH.SPL~ ~override~
+SAY NAME1 @17
+SAY UNIDENTIFIED_DESC @18
+
+COPY ~Aurorkit/Spells\SPLWNTLM.SPL~ ~override~
+SAY NAME1 @19
+SAY UNIDENTIFIED_DESC @20
+
+COPY ~Aurorkit/Creatures\FBWOLF01.CRE~ ~override~
+SAY NAME1 @21
+
+COPY ~Aurorkit/Creatures\GICELEM1.CRE~ ~override~
+SAY NAME1 @22
+
+COPY ~Aurorkit/Creatures\ICELEM01.CRE~ ~override~
+SAY NAME1 @23
+
+COPY ~Aurorkit/Creatures\ICELEM02.CRE~ ~override~
+SAY NAME1 @23
+
+COMPILE ~Aurorkit/Baf Files\SCFBWOLF.BAF~
+	~Aurorkit/Baf Files\SCGCELEM.BAF~
+	~Aurorkit/Baf Files\SCICELEM.BAF~
+
+COPY_EXISTING ~SCFBWOLF.BCS~ ~override~
+	      ~SCGCELEM.BCS~ ~override~
+	      ~SCICELEM.BCS~ ~override~

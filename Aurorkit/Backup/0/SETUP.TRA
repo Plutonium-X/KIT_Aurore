@@ -1,0 +1,139 @@
+@1 = ~AUROR~
+@2 = ~Auror~
+@3 = ~AUROR: Une archère unique avec une habilité exceptionnelle de contrôle de la glace et de l'hiver.
+ 
+Quoique considérée comme née Aurilienne, elle ne partage pas les caprices destructeurs de la Fille du Gel et de ses suivants et a au contraire une personnalité plutôt charmante. Nativement agile, elle est extrêmement rapide et précise dans ses mouvements, mais il s'avère que c'est une nécessité plutôt qu'un avantage pour elle car elle est aussi née fragile. Cela, cependant,  ne l'empêche pas d'aider ceux qui sont dans le besoin et de répondre rapidement. Elle est un protecteur fidèle du faible et un vicieux ennemi froid du mal. 
+
+Avantages :
+-  +1 à la dextérité et + 2 au charisme à la création.
+-  Grande maîtrise - Armes de trait : peut mettre 5 points en Arc long et Arc court.
+-  +1 au toucher et +1 aux dommages, avec une arme à distance, tous les 2 niveaux.
+-  -1 au facteur de vitesse tous les 4 niveaux.
+-  Toucher glacial : Au 12eme niveau, toutes ses attaques à distance font 2D8 dommages de froid additionnels.
+-  Aux niveaux 14, 16 et 18, elle reçois des emplacements de sort divins additionnels.
+-  -1 à la CA tous les 4 niveaux.
+-  +3 de résistance aux dommages de froid tous les 2 niveaux.
+-  +5 de résistance à la magie tous les 5 niveaux.
+-  +1 de bonus au jet contre les souffles tous les 3 niveaux.
+-  Immunisé contre Charme, Enchevêtrement et Toile d'araignée.
+-  A partir du 10éme niveau, elle reçoit des sorts exclusifs. Ce sont :
+10eme niveau: Armure gelée
+12eme niveau: Toucher d'Aurile
+15eme niveau: Givre, Souffle de froid, Teaurodiver.
+18eme niveau: Invocation d'élémentaire de glace
+20eme niveau: Lamentation de l'hiver
+
+Désavantages :
+-  Seulement accessible aux elfes et demi-elfes d'alignement neutre bon et Chaotique bon
+-  -3 à la constitution et -4 à la force à la création.
+-  Reçois une pénalité de -1 au jet contre la mort tous les 6 niveaux.
+-  A un accès limité à quelques armes de mêlée et de distance.
+-  Peut seulement devenir compétent pour les armes de mêlée; elle ne peut jamais se spécialiser.
+-  Ne peut mettre aucun point dans une compétence de combat autre que le combat à deux mains.
+-  Ne peut porter AUCUNE armure.
+-  Pas de capacité de camouflage.
+
+*JE RECOMMANDE FORTEMENT D'UTILISER CE KIT AVEC UN PERSONNAGE FEMININ OU L'EXPERIENCE DE JEU EN SERA GACHEE*~
+
+@4 =  ~Bouclier de glace de Glacius~
+
+@5 =  ~Conduite glaciale~
+
+@6 =  ~Appel d'esclave élémentaire de glace~
+
+@7 = ~Souffle de froid~
+@8 = ~ Souffle de froid (Evocation) 
+Sphère: élémentale
+Niveau : 2
+Portée : spéciale
+Durée : instantanée
+Temps d'incantation : instantané
+Zone d'effet : spéciale 
+Jet de sauvegarde : aucun
+
+Le lanceur souffre un intense souffle de froid. Toute créature située dans la zone d'effet subit 12D12 dommages de froid et est ralentie pour 9 secondes (Jet contre les souffles pour annuler). Les effets de ce sort augmentent avec l'expérience du lanceur.
+
+Ce sort cependant à un effet secondaire et il rend le lanceur incapable d'entamer une conversation ou de lancer un sort pendant ½ round dû à la sévère froideur laissée dans sa gorge.~
+
+@9 = ~Teaurodiver~
+@10 = ~  Teaurodiver (Conjuration/Convocation) 
+Sphère : Elémentaire, Convocation
+Niveau : 2
+Portée: champ de vision du lanceur
+Durée : instantanée /8 rounds
+Temps d'incantation : 6
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Une fois l'incantation achevée, le lanceur invoque une forme mineur de l'un des plus puissants phénomènes naturels connu à travers les Royaumes : Toreaudiver. En plus des 3D8 dommages de froid, les créatures prises dans la zone d'effet du sort sont ralenties pour 4 rounds en cas d'échec d'un jet contre les sorts. Ce sort invoque aussi un groupe des légendaires Loups de Toreaudiver, et ils obéiront au lanceur aussi longtemps que dure le sort. Le sort, cependant, ne pourra pas être lancé pendant les 4 rounds qui suivent.~
+
+@11 = ~Armure gelée~
+@12 = ~Armure gelée (Altération) 
+Sphère: élémentale
+Niveau : 1
+Portée : le lanceur.
+Durée : 8 heures
+Temps d'incantation : 1 round
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun
+
+A la résolution du sort, la lanceur est enveloppé d'une fine couche de brume glacée qui cristallise tout son corps. En fait il réduit toute les dommages physiques de 40%. Par ailleurs, tout adversaire qui touche le lanceur avec une arme ou un sort dans un rayon de 2m subit 2D8 + 18 dommage de froid. L'effet perdure  jusqu'à dissipation réussi ou la durée du sort.~
+
+@13 = ~Givre~
+@14 = ~Givre (Évocation) 
+Sphère: élémentale
+Niveau : 1
+Portée: champ de vision du lanceur
+Durée : instantanée
+Temps d'incantation : 6
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : Spécial
+
+Quand ce sort est lancé, la zone affectée rayonne soudainement d'un vent frigorifiant.
+Les créatures dans la zone d'effet subissent des dommages de froids variables et voient leur mouvement sévèrement limités. De plus, les  ennemis camouflés deviennent partiellement visibles.
+Ce sort gèle les élémentals de feu, les effrit et les salamandres, ce qui les détruit instantanément..~
+
+@15 = ~Convocation d'élémental de glace~
+@16 = ~ Convocation d'élémental de glace (Conjuration, Convocation)
+Sphère : Elémentaire, Convocation
+Niveau : 3
+Portée : Champ visuel du prêtre
+Durée : 1 tour/niveau
+Temps d'incantation : 4
+Zone d'effet : Spéciale
+Jet de sauvegarde : Aucun
+
+Le lanceur, avec un lien de sang avec le Royaume de la Glace, et capable d'appeler les légendaires élémentaux de glace. Il y a 55% de chance que trois élémentaux à 18 dé de vie apparaissent, 35% de chance que deux élémentaux à 22 dés de vie apparaissent, et 10% de chance que le prince élemental de glace lui même, Glacius, apparaisse. Les élémentaux restent sous le contrôle du lanceur jusqu'à ce qu'ils soient tués ou l'expiration de la durée du sort.~
+
+@17 = ~Toucher d'Aurile~
+@18 = ~ Toucher d'Aurile (Nécromancie)
+Sphère : Elémentaire, Combat
+Niveau : 1
+Portée : toucher
+Durée : spéciale
+Temps d'incantation : instantané
+Zone d'effet : créature touchée
+Jet de sauvegarde : aucun
+
+Le lanceur tente de reproduire le toucher de la déesse Aurile, la Fille du gel et de l'appliquer sur la victime. Sur une attaque de mêlée réussie, la créature touchée subit 6D12 dommages de froid ainsi qu'une pénalité de -4 au TACO. La créature touchée doit aussi réussir un jet de sauvegarde contre la mort ou être instantanément gelée.~
+
+@19 = ~Lamentation de l'hiver~
+@20 = ~ Lamentation de l'hiver (Enchantement/Charme)
+Sphère: Charme, Elémentale, Combat
+Niveau: 3
+Portée : Champ visuel du prêtre
+Durée : Décalée
+Temps d'incantation : instantané
+Zone d'effet : 9 mètres de rayon
+Jet de sauvegarde : spéciale
+
+Le lanceur chante l'hymne connue comme la Lamentation de l'Hiver. La Lamentation de l'Hiver, cependant, n'est pas une chanson mais plutôt une culmination des émotions de chagrin, peur et désespoir qu'une grave tempête hivernale apporte. Toute créature dans la zone d'effet est accablée par les horribles émotions assaillant ses sens comme ceux que provoque un de ces fatidiques hivers.
+Les victimes subissent 6d12 + 10d12 dommages de froid et sont aussi sévèrement gênées dans leurs mouvements. Elles seront aussi affligées de confusion ou de rupture de moral, ou périront instantanément (Jet de sauvegarde pour annuler).
+
+Le lanceur cependant, doit rester immobile pendant son chant pour toute la durée du sort. Dû à la nature de cet épouvantable sort, le lanceur est physiquement épuisé et aura presque immédiatement besoin de repos, cmme il causera l'équivalent de jours de fatigue presque instantanément.~
+
+@21 = ~Loup de Teaurodiver~
+
+@22 = ~Glacius~
+
+@23 = ~Elémental de glace~

@@ -1,0 +1,139 @@
+@1 = ~AUROR~
+@2 = ~Auror~
+@3 = ~AUROR: A unique archer with an exceptional ability to control the forces of Ice and Winter. Though believed to be born Aurilian, she does not share the destructive whims of the Frost Maiden and her followers and on the contrary, has a fairly charming personality. Innately born agile, she is extremely quick and precise in every move but, it proves to be a necessity rather than an advantage for she is also born physically weak. This does not however, prevents her to aid those in need and is certain to quickly respond. She is a stalwart protector of the weak and a vicious, cold foe of evil.
+
+Advantages:
+-   +1 to dexterity and +2 to charisma on character creation.
+-   Grand Master - Missile Weapons: May put 5 points in Long Bow and Short Bow
+-   +1 to hit and +1 to damage, with any missile weapon for every 2 levels of experience
+-   -1 speed factor with missile weapons for every 4 levels
+-   Frost Touch: At the 12th level, all her ranged attacks will deal an additional 2d8 cold damage
+-   At the 14th, 16th and 18th level, she will receive additional priest spell slots.
+-   -1 AC bonus every 4 levels 
+-   +3 resistance to cold damage every 2 levels
+-   +5 resistance to magic every 5 levels
+-   +1 bonus to save vs. breath every 3 levels
+-   Immune to charm, entangle and web spells
+-   Beginning at the 10th level, she will receive additional spells exclusive only to her. They are as follows:
+10th level: Frozen Armor
+12th level: Auril’s touch
+15th level: Hoarfrost, Breath of Cold, Fimbulwinter
+18th level: Ice Elemental Summoning
+20th level: Winter’s Lament
+
+Disadvantages:
+-   -3 to constitution and -4 to strengh on character creation.
+-   Available only to Elves and Half-Elves of Neutral and Chaotic Good alignment
+-   Receives a -1 penalty to Save vs. Death for every 6 levels.
+-   Has access on selected melee and ranged weapons only.
+-   Can only become proficient in Melee weapons; she may never specialize
+-   Cannot put any point to Fighting Style Proficiencies other than Two Weapon Style
+-   Cannot wear ANY armor
+-   No Stealth ability
+
+*I STRONGLY SUGGEST USING THIS KIT WITH A FEMALE CHARACTER UNLESS YOU HAVE AN EDITOR (EG. SHADOWKEEPER ET.AL) OR IT WILL RUIN THE EXPERIENCE*~
+
+@4 =  ~Glacius' Ice Shield~
+
+@5 =  ~Glacial Drive~
+
+@6 =  ~Call Ice Elemental Minions~
+
+@7 = ~Breath of Cold~
+@8 = ~Breath of Cold (Evocation) 
+Sphere: Elemental
+Level: 2
+Range: Special
+Duration: Instantaneous
+Casting Time: Instant
+Area of Effect: Special
+Saving Throw: none
+
+The caster breathes out an intense breath of cold. Anyone caught within range suffer 12d12 cold damage as well as be slowed for 1 & 1/2 round (save vs. breath weapons neg). This spell increases in effect as the caster gains in experience.
+
+This spell however, does have it's side effect and will render the caster unable to initiate a conversation or cast spells 1/2 round due to the severe coldness left in the caster's throat.~
+
+
+@9 = ~Fimbulwinter~
+@10 = ~Fimbulwinter 
+(Evocation/Conjuration/Summoning) 
+Sphere: Elemental, Summoning
+Level: 2
+Range: Visual sight of caster
+Duration: Instantaneous/8 rounds
+Casting Time: 6
+Area of Effect: Special
+Saving Throw: None
+
+Upon the completion of the spell, the caster invokes a lesser form of one of the most powerful natural phenomenon known throughout the realms: Fimbulwinter. In addition to the 3d18 cold damage, creatures caught within the range of the spell are slowed for 4 rounds if fails to save vs. spells. This spells also summons a pack of the fabled Wolves of Fimbulwinter, and will obey the caster for as long as they remain summoned. The spell however, cannot be casted for the next 4 rounds after.~
+
+@11 = ~Frozen Armor~
+@12 = ~Forzen Armor (Alteration) 
+Sphere: Elemental
+Level: 1
+Range: Caster
+Duration: 8 hours
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+By means of this spell, the caster is enveloped by a thin layer of icy mist and crystallizations all over her body. It effectively reducuces any physical attacks by 40%. In addition, any opponent that hits the caster with any weapons or spells within a 5' radius suffers 2d8+18 cold damage. It lasts until successfully dispelled or until the duration runs out.~
+
+@13 = ~Hoarfrost~
+@14 = ~Hoarfrost (Evocation) 
+Sphere: Elemental
+Level: 1
+Range: Visual sight of the caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: 30 foot radius
+Saving Throw: Special
+
+When this spell is cast, the area affected suddenly radiates with an extremely chilling wind. Creatures within the area of effect take varying cold damage as well as severely limiting their movement. Hidden opponents become partially visible as an added effect. This spell will freeze Fire Elementals, Efreet and Salamanders thus, slaying them instantly.~
+
+@15 = ~Ice Elemental Summoning~
+@16 = ~Ice Elemental Summoning 
+(Conjuration/Summoning) 
+Sphere: Elemental, Summoning
+Level: 3
+Range: Visual sight of the caster
+Duration: 1 turn/level
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+The caster, with a blood-link to the Realm of Ice, is able to call forth the legendary Ice Elementals. There is a 55% chance that three 18 hit dice elemental appears, 35% chance of two 22 hit dice elemental appears, and a 10% chance that the Ice Elemental Prince, Glacius himself, appears. The elementals will remain loyal to the caster until slain or until the spell duration expires.~
+
+@17 = ~Auril's Touch~
+@18 = ~Auril’s Touch (Necromancy)
+Sphere: Elemental, Combat
+Level: 1
+Range: Touch
+Duration: Permanent
+Casting Time: Instant
+Area of Effect: Creature Touched
+Saving Throw: Neg.
+
+The caster attempts to replicate the touch of the goddess Auril, the Frostmaiden and delivers it to the victim. With a successful melee attack, the affected creature receives 6d12 cold damage as well as a -4 penalty to its THAC0. The touched creature must also make a saving throw vs. death or be instantly frozen upon touch.~
+
+@19 = ~Winter's Lament~
+@20 = ~Winter's Lament (Enchantment/Charm)
+Sphere: Charm, Elemental, Combat
+Level: 3
+Range: Visual sight of the caster
+Duration: Delayed
+Casting Time: Instant
+Area of Effect: 30-ft. radius
+Saving Throw: Special
+
+The caster hymns the song known as the Winter's Lament. The Winter's Lament however, is not a song but rather a culmination all the emotions of sorrow, fear and despair that a grievous winter's storm brings. Everyone in the area of its effect is overwhelmed with the horrid emotions assailing their senses as well as the feel of that one fateful winter. The victims suffer 6d12 + 10d12 cold damage as well as being severely hindered of movement. They will also be afflicted with confusion or morale failure or may instantly die (saving throw negates.)
+
+The caster however, must remain still while singing for the duration of the song. Due to the nature of this dreadful spell, the caster is physically drained and she will likely require rest immediately afterwards, as it will cause days worth of fatigue almost instantaneously.~
+
+@21 = ~Fimbulwinter Wolf~
+
+@22 = ~Glacius~
+
+@23 = ~Ice Elemental~
+
+@24 = ~Ice Elemental~

@@ -1,0 +1,34 @@
+IF
+  Allegiance(Myself,NEUTRAL)
+  !Allegiance(LastSummonerOf(Myself),ALLY)
+THEN
+  RESPONSE #100
+    Ally()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  See([PC])
+  HPPercentLT(MostDamagedOf(Myself),50)
+  HPPercentLT(Myself,25)
+THEN
+  RESPONSE #100
+    Help()
+    Continue()
+END
+

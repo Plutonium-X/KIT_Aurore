@@ -1,0 +1,67 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPCLOUD1",Myself)
+END
+
+IF
+  Allegiance(Myself,NEUTRAL)
+  !Allegiance(LastSummonerOf(Myself),ALLY)
+THEN
+  RESPONSE #100
+    Ally()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),10)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),10)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    AttackOneRound(LastAttackerOf(Myself))
+END
+
+IF
+  HPPercentLT(Myself,50)
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),4)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),10)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  See([PC])
+  HPPercentLT(MostDamagedOf(Myself),50)
+  HPPercentLT(Myself,25)
+THEN
+  RESPONSE #100
+    Help()
+    Continue()
+END
+
