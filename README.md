@@ -13,18 +13,20 @@
 -  +1 de bonus au jet contre les souffles tous les 3 niveaux.
 -  Immunisé contre Charme, Enchevêtrement et Toile d'araignée.
 -  A partir du 10éme niveau, elle reçoit des sorts exclusifs. Ce sont :
-*10eme niveau: Armure gelée
-*12eme niveau: Toucher d'Aurile
-*15eme niveau: Givre, Souffle de froid, Teaurodiver.
-*18eme niveau: Invocation d'élémentaire de glace
-*20eme niveau: Lamentation de l'hiver
+  10eme niveau: Armure gelée
+/ 12eme niveau: Toucher d'Aurile
+/ 15eme niveau: Givre, Souffle de froid, Teaurodiver.
+/ 18eme niveau: Invocation d'élémentaire de glace
+/ 20eme niveau: Lamentation de l'hiver
 
 -Désavantages :
 -  Seulement accessible aux elfes et demi-elfes d'alignement neutre bon et Chaotique bon
 -  -3 à la constitution et -4 à la force à la création.
--  Reçois une pénalité de -1 au jet contre la mort tous les 6 niveaux.
--  A un accès limité à quelques armes de mêlée et de distance.
--  Peut seulement devenir compétent pour les armes de mêlée; elle ne peut jamais se spécialiser.
--  Ne peut mettre aucun point dans une compétence de combat autre que le combat à deux mains.
+-  -1 au jet de sauvegarde contre la mort tous les 6 niveaux.
+-  Accès limité à quelques armes de mêlée et de distance.
+-  Ne peut jamais se spécialiser avec les armes de mélée.
+-  Ne peut utiliser que le style de combat "à deux mains".
 -  Ne peut porter AUCUNE armure.
 -  Pas de capacité de camouflage.
+
+-Spécial : le kit change l'animation du personnage aurore en elfe femelle mage en robe. Donc n'utilisez pas ce kit sur un homme ou un race de etite taille.
