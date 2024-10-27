@@ -31,4 +31,4 @@ Vous trouvez que le Morituri est un kit cheaté ? C'est parce que vous n'avez ja
 -  Ne peut porter AUCUNE armure.
 -  Pas de capacité de camouflage.
 
--Spécial : le kit change l'animation du personnage aurore en elfe femelle mage en robe. Donc n'utilisez pas ce kit sur un homme ou un race de etite taille.
+-Spécial : le kit change l'animation du personnage aurore en femme humaine mage. Donc n'utilisez pas ce kit sur un homme ou une race de petite taille.
