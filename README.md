@@ -15,11 +15,11 @@ Vous trouvez que le Morituri est un kit cheaté ? C'est parce que vous n'avez ja
 -  +1 de bonus au jet contre les souffles tous les 3 niveaux.
 -  Immunisé contre Charme, Enchevêtrement et Toile d'araignée.
 -  A partir du 10éme niveau, elle reçoit des sorts exclusifs. Ce sont :
-  10eme niveau: Armure gelée
-/ 12eme niveau: Toucher d'Aurile
-/ 15eme niveau: Givre, Souffle de froid, Teaurodiver.
-/ 18eme niveau: Invocation d'élémentaire de glace
-/ 20eme niveau: Lamentation de l'hiver
+  10eme niveau : Armure gelée
+/ 12eme niveau : Toucher d'Aurile
+/ 15eme niveau : Givre, Souffle de froid, Teaurodiver.
+/ 18eme niveau : Invocation d'élémentaire de glace
+/ 20eme niveau : Lamentation de l'hiver
 
 -Désavantages :
 -  Seulement accessible aux elfes et demi-elfes d'alignement neutre bon et Chaotique bon
