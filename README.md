@@ -32,3 +32,5 @@ Vous trouvez que le Morituri est un kit cheaté ? C'est parce que vous n'avez ja
 -  Pas de capacité de camouflage.
 
 -Spécial : le kit change l'animation du personnage aurore en femme humaine mage. Donc n'utilisez pas ce kit sur un homme ou une race de petite taille.
+
+-Note : Le kit est actuellement disponible en version 4.4.1 équilibrée, mais qui a perdu la traduction française en route. Ce que je propose est une version non équilibrée mais en français.
