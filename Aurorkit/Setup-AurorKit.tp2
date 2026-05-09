@@ -37,7 +37,7 @@ ADD_KIT ~Auror~
  ~Auror		1           1           0           0           1           0           0           0~
 
  // appended column-wise to WEAPPROF.2da
- ~Auror		1 1 5 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 0 5 5 0 0 0 0 0 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+ ~Auror		1 1 5 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 0 5 5 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
     
  // appended to ABCLASRQ.2da
  ~Auror				12      18	9	14	14	16~
